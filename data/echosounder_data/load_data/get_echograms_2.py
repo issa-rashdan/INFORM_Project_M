@@ -1,5 +1,5 @@
-from Inform_project_new.data.echosounder_data.load_data import data_paths  
-from Inform_project_new.data.echosounder_data.load_data.echogram import Echogram 
+from INFORM_Project_M.data.echosounder_data.load_data import data_paths  
+from INFORM_Project_M.data.echosounder_data.load_data.echogram import Echogram 
 
 
 import os
