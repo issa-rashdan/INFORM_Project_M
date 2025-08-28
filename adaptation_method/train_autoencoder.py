@@ -3,7 +3,7 @@ import torch.nn as nn
 import matplotlib.pyplot as plt
 import torch.optim as optim
 from tqdm import tqdm 
-from Inform_project_new.adaptation_method.EarlyStopping import EarlyStopping
+from INFORM_Project_M.adaptation_method.EarlyStopping import EarlyStopping
 
 def train_val_encoder(model, optimizer, Loss_func, num_epochs, train_dataloader, test_dataloader, run):
     avg_loss_train = []
@@ -107,6 +107,7 @@ def plot_loss(num_epochs, avg_loss_train, avg_loss_val, stop_epoch, run = None):
             
             
         
+
 
 
 
