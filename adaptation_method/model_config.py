@@ -1,4 +1,4 @@
-from Inform_project_new.adaptation_method.Autoencoder import ResNetAutoEncoder, Autoencoder
+from INFORM_Project_M.adaptation_method.Autoencoder import ResNetAutoEncoder, Autoencoder
 import wandb
 def Configuration(model_name = ''):    
     run = wandb.init(
@@ -12,6 +12,7 @@ def Configuration(model_name = ''):
         }, 
     )
     return run
+
 
 
 
