@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from typing import List, Any, Generator, Tuple
-from data.echosounder_data.dataloader import GroupedGenerator
+from INFORM_Project_M.data.echosounder_data.dataloader import GroupedGenerator
 from functools import partial
 
 def generate_patch_batches(echograms: List,
